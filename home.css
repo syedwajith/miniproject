@@ -1,0 +1,65 @@
+body
+{
+    text-align: center;
+    margin:0%;
+    padding:50%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:cyan ;
+}
+.hom
+{
+    position: absolute;
+    width: 300px;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    bottom: black ;
+    text-align: center;
+}
+h1
+{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    color: darkblue;
+    text-transform: none;
+    font-weight: 700;
+}
+.hom select
+{
+    border: 0%;
+    background: none;
+    display: flex;
+    margin: 20px auto;
+    text-align: center;
+    border-color: 5px black;
+    padding: 14px 19px;
+    width: 220px;
+    outline:auto;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.hom label
+{
+    color: red;
+}
+.hom input[type="button"]
+{
+    border: 25px;
+    background:greenyellow;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3% black;
+    padding: 14px 15px;
+    width: 220px;
+    outline: black;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+    
+}
